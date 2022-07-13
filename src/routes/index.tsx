@@ -1,6 +1,5 @@
+import { Globe } from '@clairbuoyant/worldwind-react';
 import { useRoutes } from 'react-router-dom';
-
-import WorldMap from '@views/world-map';
 
 import { publicRoutes } from './public';
 
@@ -10,7 +9,7 @@ export default function AppRoutes() {
 
   const commonRoutes = [
     {
-      element: <WorldMap />,
+      element: <Globe />,
       path: '/',
     },
   ];
