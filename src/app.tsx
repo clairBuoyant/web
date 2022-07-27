@@ -6,7 +6,7 @@ const App = () => {
       <header className="app-header">
         <p>clairBuoyant</p>
       </header>
-      <Globe canvasId="canvas_123" is2D />
+      <Globe />
     </div>
   );
 };
