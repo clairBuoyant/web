@@ -1,20 +1,7 @@
-import { useRef } from 'react';
 import { BrowserRouter, NavLink } from 'react-router-dom';
 import './nav-footer.css';
 
 export const NavFooter: React.FC = () => {
-  const navbarLinks = useRef(null);
-  console.log('how does this look', navbarLinks);
-
-  //   const handleNavBar = (e) => {
-  //     navbarLinks.current.classList.toggle('menu-collapse');
-  //   };
-
-  //   const hideNav = () => {
-  //     if (!navbarLinks.current.classList.contains('menu-collapse'))
-  //       navbarLinks.current.classList.add('menu-collapse');
-  //   };
-
   return (
     <div className="nav-container">
       <BrowserRouter>
