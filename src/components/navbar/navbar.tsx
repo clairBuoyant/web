@@ -1,7 +1,7 @@
 import { BrowserRouter, NavLink } from 'react-router-dom';
-import './nav-footer.css';
+import './navbar.css';
 
-export const NavFooter: React.FC = () => {
+export const Navbar: React.FC = () => {
   return (
     <div className="nav-container">
       <BrowserRouter>

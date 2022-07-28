@@ -1,13 +1,11 @@
 import { WorldMap } from './components/world-map';
-import { NavFooter } from './components/nav-footer';
+import { Navbar } from './components/navbar';
 
 const App = () => {
   return (
     <div className="app">
-      <header className="app-header">
-        <NavFooter />
-      </header>
-
+      <Navbar />
+      <header className="app-header">Map</header>
       <WorldMap />
     </div>
   );
