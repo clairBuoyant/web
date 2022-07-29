@@ -22,6 +22,9 @@
     "@types/react-dom": "^18.0.6",
     "typescript": "^4.7.4"
   },
+  "bin": {
+    "run": "./scripts/run.sh"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
