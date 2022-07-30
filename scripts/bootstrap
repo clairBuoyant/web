@@ -1,0 +1,6 @@
+#!/bin/sh -e
+
+# Resolve all system dependencies the application needs to run.
+
+
+# install nvm or asdf - give user the option?
