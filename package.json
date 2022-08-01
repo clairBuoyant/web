@@ -22,21 +22,15 @@
     "@types/react-dom": "^18.0.6",
     "typescript": "^4.7.4"
   },
-  "bin": {
-    "bootstrap": "./scripts/bootstrap",
-    "clean": "./scripts/clean",
-    "run": "./scripts/run",
-    "setup": "./scripts/setup",
-    "start": "./scripts/start"
-  },
   "scripts": {
-    "eject": "react-scripts eject",
     "bootstrap": "./scripts/bootstrap",
     "build": "react-scripts build",
     "clean": "./scripts/clean",
+    "init": "./scripts/init",
     "setup": "./scripts/setup",
     "start": "react-scripts start",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "uninstall": "./scripts/uninstall"
   },
   "eslintConfig": {
     "extends": [

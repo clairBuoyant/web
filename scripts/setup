@@ -1,6 +1,5 @@
-#!/bin/sh -e
+#!/bin/sh -ex
 
 npm ci
 
-# TODO: incorporate pre-commit install with pipx
-# TODO: consider npm link
+# npm link
