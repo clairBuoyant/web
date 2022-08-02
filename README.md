@@ -1,22 +1,37 @@
-# Web Application
+# clairBuoyant – Web
 
 ## Development
 
-Run all documented commands from the project's **root** folder.
+Run all [documented commands](./scripts/README.md) from the project's **root** folder.
 
-### Setup Instructions
+For example, once all system dependencies are installed you may run:
+`npm run init` to complete the prerequisite setup.
 
-1. Install Prettier plugin called `esbenp.prettier-vscode` on VSCode.
+### System Dependencies
 
-2. Install `yarn`; consider one of the following options:
+Install the following required dependencies before proceeding further.
 
-   - `corepack enable` (system agnostic).
-   - `brew install yarn` (MacOS or Linux).
+#### Required
 
-3. Install all dependencies with `yarn`.
+- [NodeJS >= 18.7](https://www.python.org/downloads/release/python-3105): primary language for web application.
 
-4. Start development server with `yarn start`.
+#### Recommended
 
-   - Web application will be available at [localhost:3000](http://localhost:3000/).
+- [clairBuoyant API](https://www.github.com/clairBuoyant/server#system-dependencies): provide data for UI to render.
 
-5. Run tests with `yarn test`.
+### Getting Started
+
+Run `npm run init` in your terminal to get started.
+
+#### Working with npm
+
+1. Install dependencies: `npm install`
+
+2. Run commands or scripts: `npm run <command_or_script_name>`
+
+3. Start development server locally: `npm run start`
+   - UI will be available at [localhost:3000](http://localhost:3000/).
+
+### Development with Docker
+
+Go to [devBuoyant](https://github.com/clairBuoyant/devBuoyant) for instructions.
