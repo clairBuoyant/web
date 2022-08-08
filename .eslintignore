@@ -1,3 +1,8 @@
+# configs
+tsconfig.json
+tsconfig.*.json
+vite.config.ts
+
 # dependencies
 node_modules
 
@@ -13,15 +18,10 @@ coverage
 build
 dist
 dist-ssr
+public
 
 # misc
-.DS_Store
-*.env
-.env.*
-.idea
-*.local
-*.ntvs*
-*.njsproj
-*.sln
-*.suo
-*.sw?
+*.css
+*.scss
+.github
+.vscode
