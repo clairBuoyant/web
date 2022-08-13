@@ -11,14 +11,13 @@ Install the following required dependencies before proceeding further.
 #### Required
 
 - [NodeJS >= 18.7](https://nodejs.org/en/download/current/): primary language for web application.
+  - install with [`asdf`](https://asdf-vm.com/guide/getting-started.html) or [`nvm`](https://github.com/nvm-sh/nvm#installing-and-updating).
 - [pre-commit](https://pre-commit.com/#install): manage githooks.
-  - Recommended installation methods:
-    - [`pipx`](https://pypa.github.io/pipx/)
-    - [`brew`](https://brew.sh/)
+  - install with [`brew`](https://brew.sh/) or [`pipx`](https://pypa.github.io/pipx/).
 
 #### Recommended
 
-- [clairBuoyant API](https://www.github.com/clairBuoyant/server#system-dependencies): provide data for UI to render.
+- [server](https://www.github.com/clairBuoyant/server#system-dependencies): provide data for UI to render.
 
 ### Getting Started
 
