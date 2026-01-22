@@ -1,5 +1,8 @@
 # clairBuoyant – Web
 
+> [!IMPORTANT]
+> Development has moved to [`swellhub`](https://github.com/clairBuoyant/swellhub).
+
 ## Development
 
 [Scripts](./scripts/README.md) are provided to support the development experience. For best results, please run these commands from the project's **root** folder.
